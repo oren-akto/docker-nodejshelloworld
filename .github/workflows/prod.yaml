@@ -8,4 +8,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Print github branch name
-      - run: echo "print branch here"
+        run: echo "print branch here"

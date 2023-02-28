@@ -7,5 +7,6 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      - 
       - name: Print github branch name
-        run: echo "${{ github.ref }}"
+        run: echo "${{ github.ref_name }}"
